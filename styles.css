@@ -1,0 +1,25 @@
+/* Remove default text decoration */
+.sub-item-link {
+  text-decoration: none;
+  color: #0077cc; /* Normal state */
+}
+
+/* Visited link */
+.sub-item-link:visited {
+  color: #663399;
+}
+
+/* Hover effect */
+.sub-item-link:hover {
+  color: #ff6600;
+}
+
+/* Focused link */
+.sub-item-link:focus {
+  outline: 2px solid #00cc99;
+}
+
+/* Active/clicked link */
+.sub-item-link:active {
+  color: #cc0000;
+}
